@@ -1,3 +1,5 @@
+import EmployeeTable from "../components/EmployeeTable";
+
 const EmployeePage = () => {
   return (
     <div>
@@ -7,6 +9,7 @@ const EmployeePage = () => {
           New Employer
         </button>
       </div>
+      <EmployeeTable/>
     </div>
   );
 };

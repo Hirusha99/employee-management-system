@@ -1,4 +1,5 @@
-import EmployeePage from "./pages/employeePage"
+import EmployeePage from "./pages/EmployeePage"
+
 
 
 const App = () => {
