@@ -4,6 +4,14 @@ const EmployeeTable = () => {
     { id: 2, name: "sam", salary: 59000 },
   ];
 
+  const editButton=()=>{
+    console.log("edit")
+  }
+
+  const deleteButton=()=>{
+    console.log("delete")
+  }
+
   return (
     <div >
       <h1 className="display-6 ms-5">Employee Deatils</h1>
@@ -24,10 +32,10 @@ const EmployeeTable = () => {
                 <td>{employee.name}</td>
                 <td>{employee.salary}</td>
                 <td>
-                  <button type="button" className="btn btn-warning m-1">
+                  <button type="button" className="btn btn-warning m-1" onClick={editButton}>
                     Edit
                   </button>{" "}
-                  <button type="button" className="btn btn-danger m-1">
+                  <button type="button" className="btn btn-danger m-1" onClick={deleteButton}>
                     Delete
                   </button>
                 </td>
